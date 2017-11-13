@@ -29,7 +29,7 @@
             lblTotal.Text = decTotal.ToString("c")
 
         Catch
-            MessageBox.Show("All input muat me valid numeric values.")
+            MessageBox.Show("All input must me valid numeric values.")
 
         End Try
 
