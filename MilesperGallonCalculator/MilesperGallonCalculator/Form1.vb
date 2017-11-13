@@ -8,7 +8,7 @@
             lblMilesPerGallon.Text = decMilesperTotal.ToString("n2")
         Catch
 
-            lblStatus.Text = "Error: Be sure to enter nonzero" & "numeric values"
+            lblStatus.Text = "Error: Be sure to enter nonzero" & " numeric values"
 
 
         End Try
