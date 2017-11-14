@@ -26,6 +26,12 @@ Partial Class Form1
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtClassC = New System.Windows.Forms.TextBox()
+        Me.txtClassB = New System.Windows.Forms.TextBox()
+        Me.txtClassA = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.lblClassC = New System.Windows.Forms.Label()
@@ -37,12 +43,6 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.lblStatus = New System.Windows.Forms.Label()
-        Me.txtClassA = New System.Windows.Forms.TextBox()
-        Me.txtClassB = New System.Windows.Forms.TextBox()
-        Me.txtClassC = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -89,6 +89,54 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Tickets Sold"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(14, 125)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(42, 13)
+        Me.Label1.TabIndex = 9
+        Me.Label1.Text = "Class C"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(14, 97)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(42, 13)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "Class B"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(14, 63)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(42, 13)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Class A"
+        '
+        'txtClassC
+        '
+        Me.txtClassC.Location = New System.Drawing.Point(62, 119)
+        Me.txtClassC.Name = "txtClassC"
+        Me.txtClassC.Size = New System.Drawing.Size(100, 20)
+        Me.txtClassC.TabIndex = 6
+        '
+        'txtClassB
+        '
+        Me.txtClassB.Location = New System.Drawing.Point(62, 90)
+        Me.txtClassB.Name = "txtClassB"
+        Me.txtClassB.Size = New System.Drawing.Size(100, 20)
+        Me.txtClassB.TabIndex = 5
+        '
+        'txtClassA
+        '
+        Me.txtClassA.Location = New System.Drawing.Point(62, 65)
+        Me.txtClassA.Name = "txtClassA"
+        Me.txtClassA.Size = New System.Drawing.Size(100, 20)
+        Me.txtClassA.TabIndex = 4
         '
         'Label2
         '
@@ -191,54 +239,6 @@ Partial Class Form1
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(409, 23)
         Me.lblStatus.TabIndex = 6
-        '
-        'txtClassA
-        '
-        Me.txtClassA.Location = New System.Drawing.Point(62, 65)
-        Me.txtClassA.Name = "txtClassA"
-        Me.txtClassA.Size = New System.Drawing.Size(100, 20)
-        Me.txtClassA.TabIndex = 4
-        '
-        'txtClassB
-        '
-        Me.txtClassB.Location = New System.Drawing.Point(62, 90)
-        Me.txtClassB.Name = "txtClassB"
-        Me.txtClassB.Size = New System.Drawing.Size(100, 20)
-        Me.txtClassB.TabIndex = 5
-        '
-        'txtClassC
-        '
-        Me.txtClassC.Location = New System.Drawing.Point(62, 119)
-        Me.txtClassC.Name = "txtClassC"
-        Me.txtClassC.Size = New System.Drawing.Size(100, 20)
-        Me.txtClassC.TabIndex = 6
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(14, 125)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(42, 13)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Class C"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(14, 97)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 13)
-        Me.Label3.TabIndex = 8
-        Me.Label3.Text = "Class B"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(14, 63)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(42, 13)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Class A"
         '
         'Form1
         '
