@@ -194,7 +194,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnCalculateAverage)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Test score average"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
