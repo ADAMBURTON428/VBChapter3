@@ -32,11 +32,12 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.lblAssessment = New System.Windows.Forms.Label()
         Me.lblProperty = New System.Windows.Forms.Label()
+        Me.lblError = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(12, 255)
+        Me.btnCalculate.Location = New System.Drawing.Point(12, 237)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
         Me.btnCalculate.TabIndex = 0
@@ -45,7 +46,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(292, 255)
+        Me.btnExit.Location = New System.Drawing.Point(283, 237)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 1
@@ -54,7 +55,7 @@ Partial Class Form1
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(159, 255)
+        Me.btnClear.Location = New System.Drawing.Point(145, 237)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 2
@@ -120,11 +121,20 @@ Partial Class Form1
         Me.lblProperty.Size = New System.Drawing.Size(148, 23)
         Me.lblProperty.TabIndex = 9
         '
+        'lblError
+        '
+        Me.lblError.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblError.Location = New System.Drawing.Point(-4, 267)
+        Me.lblError.Name = "lblError"
+        Me.lblError.Size = New System.Drawing.Size(407, 33)
+        Me.lblError.TabIndex = 10
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(395, 298)
+        Me.Controls.Add(Me.lblError)
         Me.Controls.Add(Me.lblProperty)
         Me.Controls.Add(Me.lblAssessment)
         Me.Controls.Add(Me.Label4)
@@ -136,7 +146,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCalculate)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Calculating Property Taxes"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -151,5 +161,6 @@ Partial Class Form1
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents lblAssessment As System.Windows.Forms.Label
     Friend WithEvents lblProperty As System.Windows.Forms.Label
+    Friend WithEvents lblError As System.Windows.Forms.Label
 
 End Class
